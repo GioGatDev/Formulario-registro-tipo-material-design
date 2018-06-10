@@ -118,16 +118,16 @@ body
                         border-radius: $borde
                         color: $white
             &.checkbox
-                label:before
+                label:before 
                     border-radius: 3px
                 input[type="checkbox"]
                     display: none
-                &:checked + label:before 
-                    display: none
-                &:checked + label
-                    background: $primary
-                    color: $white
-                    padding: 5px 15px
+                    &:checked + label:before
+                        display: none
+                        &:checked + label
+                            background: $primary
+                            color: $white
+                            padding: 5px 15px
         input[type="submit"]
             background: $primary
             border-radius: 1px

@@ -115,12 +115,12 @@ body {
       border-radius: 3px; }
     .formulario .input-group.checkbox input[type="checkbox"] {
       display: none; }
-    .formulario .input-group.checkbox:checked + label:before {
-      display: none; }
-    .formulario .input-group.checkbox:checked + label {
-      background: #303F9F;
-      color: #f2f2f2;
-      padding: 5px 15px; }
+      .formulario .input-group.checkbox input[type="checkbox"]:checked + label:before {
+        display: none; }
+        .formulario .input-group.checkbox input[type="checkbox"]:checked + label:before:checked + label {
+          background: #303F9F;
+          color: #f2f2f2;
+          padding: 5px 15px; }
   .formulario input[type="submit"] {
     background: #303F9F;
     border-radius: 1px;
